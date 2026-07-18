@@ -1,0 +1,97 @@
+# ------------------------------------------------------------------------------
+# Altium Designer - Git Ignore Rules
+# ------------------------------------------------------------------------------
+
+# Auto-generated project structure / variants (can be regenerated)
+*.PrjPcbStructure
+*.PrjPcbVariants
+
+# Backup / temporary files created by Altium (e.g. *.~(1).PcbDoc.Zip)
+*.~*
+*.*~
+~$*
+
+# Auto-save / recovery files
+*.RawSchBin
+*.RawPcbBin
+*.SchDocPreview
+*.PcbDocPreview
+
+# History snapshots created by Altium's built-in version history
+History/
+**/History/
+
+# Project logs (DRC, ECO, compilation, etc.)
+Project Logs*/
+**/Project Logs*/
+* ECO *.LOG
+* DRC *.LOG
+*.LOG
+
+# Thumbnail / preview cache
+__Previews/
+**/__Previews/
+
+# Generated manufacturing / documentation outputs
+Project Outputs for */
+**/Project Outputs for */
+Fabrication Outputs/
+**/Fabrication Outputs/
+Assembly Outputs/
+**/Assembly Outputs/
+Documentation Outputs/
+**/Documentation Outputs/
+
+# CAM / manufacturing files (Gerber, NC drill, ODB++, pick & place, BOM, etc.)
+*.Cam
+*.GBL
+*.GBO
+*.GBP
+*.GBS
+*.GKO
+*.GML
+*.GP1
+*.GP2
+*.GTL
+*.GTO
+*.GTP
+*.GTS
+*.P01
+*.DRL
+*.TXT
+*.APR
+*.APR_LIB
+*.EXTREP
+*.REP
+*.RUL
+*.DFR
+*.ODB
+*.tgz
+*.tar.gz
+
+# Reports / exports that are regenerated
+*.html
+*.htm
+*.csv
+*.xls
+*.xlsx
+*.pdf
+*.bmp
+*.png
+*.jpg
+*.jpeg
+
+# Local IDE / OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ------------------------------------------------------------------------------
+# Keep source design files tracked:
+# *.PrjPcb, *.SchDoc, *.PcbDoc, *.SchLib, *.PcbLib, *.OutJob
+# ------------------------------------------------------------------------------
